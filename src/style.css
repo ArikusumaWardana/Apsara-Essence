@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/* ── Brand Theme ────────────────────────────────────── */
+@theme {
+  --color-big-dipper: #3C444D;
+  --color-marigold: #FF9400;
+  --color-star-white: #F0F0EE;
+  --color-tangerine: #E24B2C;
+  --color-syrah: #5E2628;
+
+  --color-big-dipper-light: #525b65;
+  --color-marigold-dark: #cc7700;
+  --color-star-white-dark: #e0e0de;
+
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* ── Base ───────────────────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-big-dipper);
+  background-color: var(--color-star-white);
+}
+
+/* ── Scrollbar ──────────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-star-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-big-dipper);
+  border-radius: 4px;
+}
+
+/* ── WhatsApp Pulse ─────────────────────────────────── */
+@keyframes wa-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  70%  { box-shadow: 0 0 0 18px rgba(37, 211, 102, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+.wa-pulse {
+  animation: wa-pulse 2s infinite;
+}
