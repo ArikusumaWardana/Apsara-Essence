@@ -14,13 +14,13 @@
       </div>
 
       <!-- Product Cards -->
-      <div class="grid md:grid-cols-3 gap-8 lg:gap-10">
+      <div class="flex flex-col md:flex-row justify-center max-w-5xl mx-auto gap-8 lg:gap-10">
         <div
           v-for="(product, index) in products"
           :key="product.name"
           :data-aos="'fade-up'"
           :data-aos-delay="index * 150"
-          class="group relative bg-big-dipper-light/30 rounded-2xl overflow-hidden border border-star-white/10 hover:border-marigold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-marigold/10"
+          class="flex-1 max-w-md w-full mx-auto group relative bg-big-dipper-light/30 rounded-2xl overflow-hidden border border-star-white/10 hover:border-marigold/40 transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:shadow-marigold/10"
         >
           <!-- Image -->
           <div class="relative overflow-hidden h-72">
@@ -81,31 +81,22 @@ function waLink(key) {
   return 'https://wa.me/?text=' + encodeURIComponent(t(key))
 }
 
-// Product names, badges, and scent notes stay the same regardless of language
 const products = [
   {
-    name: 'Midnight Spice',
-    badge: 'Best Seller',
-    image: '/images/midnight-spice.png',
-    descKey: 'products.desc.midnight',
-    notes: ['Kayu Manis', 'Cengkeh', 'Pala'],
-    waKey: 'products.wa.midnight',
-  },
-  {
-    name: 'Serene Sandalwood',
-    badge: 'Premium',
-    image: '/images/serene-sandalwood.png',
-    descKey: 'products.desc.serene',
-    notes: ['Cendana', 'Melati', 'Vetiver'],
-    waKey: 'products.wa.serene',
-  },
-  {
-    name: 'Heritage Blossom',
+    name: 'Apsara Hana',
     badge: 'New',
-    image: '/images/heritage-blossom.png',
-    descKey: 'products.desc.heritage',
-    notes: ['Kenanga', 'Serai', 'Jahe'],
-    waKey: 'products.wa.heritage',
+    image: '/images/midnight-spice.png',
+    descKey: 'products.desc.mori',
+    notes: ['Lavender', 'Rosemary', 'Kayu Manis'],
+    waKey: 'products.wa.mori',
+  },
+  {
+    name: 'Apsara Mori',
+    badge: 'New',
+    image: '/images/serene-sandalwood.png',
+    descKey: 'products.desc.hana',
+    notes: ['Cendana', 'Pala', 'Cengkeh', 'Pandan'],
+    waKey: 'products.wa.hana',
   },
 ]
 </script>

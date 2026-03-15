@@ -16,7 +16,7 @@
       </a>
 
       <!-- Desktop Nav -->
-      <div class="hidden md:flex items-center gap-8">
+      <div class="hidden lg:flex items-center gap-8">
         <ul class="flex items-center gap-8">
           <li v-for="link in navLinks" :key="link.id">
             <a
@@ -57,27 +57,30 @@
         </div>
       </div>
 
-      <!-- Mobile Toggle -->
+      <!-- Mobile / Tablet Toggle -->
       <button
-        class="md:hidden flex flex-col gap-1.5 p-2"
+        class="lg:hidden flex flex-col gap-1.5 p-2"
         @click="mobileOpen = !mobileOpen"
         aria-label="Toggle menu"
       >
         <span
           :class="[
-            'block w-6 h-0.5 rounded bg-star-white transition-all duration-300',
+            'block w-6 h-0.5 rounded transition-all duration-300',
+            scrolled ? 'bg-star-white' : 'bg-star-white md:bg-star-white',
             mobileOpen ? 'rotate-45 translate-y-2' : '',
           ]"
         />
         <span
           :class="[
-            'block w-6 h-0.5 rounded bg-star-white transition-all duration-300',
+            'block w-6 h-0.5 rounded transition-all duration-300',
+             scrolled ? 'bg-star-white' : 'bg-star-white md:bg-star-white',
             mobileOpen ? 'opacity-0' : '',
           ]"
         />
         <span
           :class="[
-            'block w-6 h-0.5 rounded bg-star-white transition-all duration-300',
+            'block w-6 h-0.5 rounded transition-all duration-300',
+             scrolled ? 'bg-star-white' : 'bg-star-white md:bg-star-white',
             mobileOpen ? '-rotate-45 -translate-y-2' : '',
           ]"
         />
@@ -93,7 +96,7 @@
       leave-from-class="opacity-100 translate-y-0"
       leave-to-class="opacity-0 -translate-y-4"
     >
-      <div v-if="mobileOpen" class="md:hidden bg-big-dipper/95 backdrop-blur-md border-t border-star-white/10">
+      <div v-if="mobileOpen" class="lg:hidden bg-big-dipper/95 backdrop-blur-md border-t border-star-white/10">
         <ul class="flex flex-col gap-1 px-6 py-4">
           <li v-for="link in navLinks" :key="link.id">
             <a

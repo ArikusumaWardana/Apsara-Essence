@@ -12,8 +12,8 @@ const translations = {
 
     // ── Hero ──────────────────────────────────────
     'hero.tag': { id: 'Natural Aromatherapy', en: 'Natural Aromatherapy' },
-    'hero.title1': { id: 'Sentuhan Rempah Nusantara', en: 'The Touch of Indonesian Spices' },
-    'hero.title2': { id: 'untuk Ketenangan Jiwa.', en: 'for Inner Peace.' },
+    'hero.title1': { id: 'Apsara Essence', en: 'Apsara Essence' },
+    'hero.title2': { id: 'Pure Essence, Pure You', en: 'Pure Essence, Pure You' },
     'hero.subtitle': {
         id: 'Aromaterapi alami fungsional untuk meredakan stres dan insomnia.',
         en: 'Functional natural aromatherapy to relieve stress and insomnia.',
@@ -23,51 +23,43 @@ const translations = {
     // ── Brand / About ────────────────────────────
     'brand.tag': { id: 'Our Philosophy', en: 'Our Philosophy' },
     'brand.title1': { id: 'Keindahan Alam', en: 'The Beauty of Nature' },
-    'brand.title2': { id: 'dalam Setiap Tetes', en: 'in Every Drop' },
+    'brand.title2': { id: 'dalam Setiap Aroma', en: 'in Every Scent' },
     'brand.p1': {
         id: '{bold} lahir dari kekayaan rempah Nusantara yang telah digunakan selama berabad-abad dalam tradisi penyembuhan alami. Kami memadukan kearifan lokal dengan riset modern untuk menciptakan aromaterapi yang benar-benar fungsional.',
         en: '{bold} is born from the richness of Indonesian spices that have been used for centuries in natural healing traditions. We blend local wisdom with modern research to create truly functional aromatherapy.',
     },
     'brand.p2': {
-        id: 'Setiap produk kami diformulasikan secara khusus menggunakan bahan-bahan alami pilihan—kayu manis, cengkeh, pala, dan rempah Nusantara lainnya—untuk membantu Anda menemukan ketenangan di tengah kesibukan hidup.',
-        en: 'Each of our products is specially formulated using carefully selected natural ingredients—cinnamon, cloves, nutmeg, and other Indonesian spices—to help you find tranquility amidst the bustle of life.',
+        id: 'Setiap produk kami diformulasikan secara khusus menggunakan bahan-bahan alami pilihan, seperti kayu manis, cengkeh, pala, bunga lavender, rosemary, chamomile, dan rempah Nusantara lainnya untuk membantu Anda menemukan ketenangan di tengah kesibukan hidup.',
+        en: 'Each of our products is specially formulated using carefully selected natural ingredients, such as cinnamon, cloves, nutmeg, lavender, rosemary, chamomile, and other Indonesian spices to help you find tranquility amidst the bustle of life.',
     },
     'brand.stat1': { id: 'Alami', en: 'Natural' },
     'brand.stat2': { id: 'Rempah', en: 'Spices' },
-    'brand.stat3': { id: 'Pelanggan', en: 'Customers' },
+    'brand.stat3': { id: 'Sintetis', en: 'Synthetic' },
 
     // ── Products ──────────────────────────────────
     'products.tag': { id: 'Our Collection', en: 'Our Collection' },
     'products.title': { id: 'Koleksi', en: 'Curated' },
     'products.titleAccent': { id: 'Pilihan', en: 'Collection' },
     'products.subtitle': {
-        id: 'Tiga varian aromaterapi yang dirancang khusus untuk memenuhi kebutuhan relaksasi Anda.',
-        en: 'Three aromatherapy variants specially designed to meet your relaxation needs.',
+        id: 'Dua varian aromaterapi yang dirancang khusus untuk memenuhi kebutuhan relaksasi Anda.',
+        en: 'Two aromatherapy variants specially designed to meet your relaxation needs.',
     },
     'products.cta': { id: 'Pesan Sekarang', en: 'Order Now' },
-    'products.desc.midnight': {
-        id: 'Perpaduan hangat kayu manis, cengkeh, dan pala yang menenangkan pikiran di malam hari. Ideal untuk meningkatkan kualitas tidur Anda.',
-        en: 'A warm blend of cinnamon, cloves, and nutmeg that calms the mind at night. Ideal for improving your sleep quality.',
+    'products.desc.mori': {
+        id: 'Diformulasikan khusus untuk meredakan ketegangan, membantu Anda mengatasi sulit tidur, mempercepat waktu terlelap, dan meningkatkan kualitas tidur agar tidak mudah terbangun di tengah malam.',
+        en: 'Specially formulated to relieve tension, helping you overcome sleep difficulties, fall asleep faster, and improve sleep quality to prevent waking up in the middle of the night.',
     },
-    'products.desc.serene': {
-        id: 'Aroma cendana yang lembut berpadu dengan sentuhan melati, menghadirkan kedamaian mendalam untuk meditasi dan relaksasi.',
-        en: 'The soft scent of sandalwood blended with hints of jasmine, bringing deep peace for meditation and relaxation.',
+    'products.desc.hana': {
+        id: 'Menghadirkan kombinasi yang lengkap untuk mencapai relaksasi total. Mampu membantu Anda terlelap lebih cepat, mengurangi risiko mimpi buruk, dan sangat cocok untuk meredakan insomnia kronis.',
+        en: 'Delivers a complete combination to achieve total relaxation. Helps you fall asleep faster, reduces the risk of nightmares, and is perfectly suited for relieving chronic insomnia.',
     },
-    'products.desc.heritage': {
-        id: 'Inspirasi dari resep warisan leluhur Nusantara. Perpaduan bunga kenanga, serai, dan jahe yang menyegarkan jiwa.',
-        en: 'Inspired by ancestral Indonesian recipes. A blend of ylang-ylang, lemongrass, and ginger that refreshes the soul.',
+    'products.wa.mori': {
+        id: 'Halo, saya tertarik dengan Apsara Essence varian Apsara Mori. Boleh info lebih lanjut?',
+        en: 'Hello, I\'m interested in the Apsara Essence Apsara Mori variant. Could you share more info?',
     },
-    'products.wa.midnight': {
-        id: 'Halo, saya tertarik dengan Apsara Essence varian Midnight Spice. Boleh info lebih lanjut?',
-        en: 'Hello, I\'m interested in the Apsara Essence Midnight Spice variant. Could you share more info?',
-    },
-    'products.wa.serene': {
-        id: 'Halo, saya tertarik dengan Apsara Essence varian Serene Sandalwood. Boleh info lebih lanjut?',
-        en: 'Hello, I\'m interested in the Apsara Essence Serene Sandalwood variant. Could you share more info?',
-    },
-    'products.wa.heritage': {
-        id: 'Halo, saya tertarik dengan Apsara Essence varian Heritage Blossom. Boleh info lebih lanjut?',
-        en: 'Hello, I\'m interested in the Apsara Essence Heritage Blossom variant. Could you share more info?',
+    'products.wa.hana': {
+        id: 'Halo, saya tertarik dengan Apsara Essence varian Apsara Hana. Boleh info lebih lanjut?',
+        en: 'Hello, I\'m interested in the Apsara Essence Apsara Hana variant. Could you share more info?',
     },
 
     // ── Why Us ────────────────────────────────────
@@ -75,28 +67,28 @@ const translations = {
     'why.title1': { id: 'Mengapa', en: 'Why' },
     'why.title2': { id: 'Apsara Essence?', en: 'Apsara Essence?' },
     'why.subtitle': {
-        id: 'Kami menghadirkan kualitas terbaik dalam setiap produk dengan komitmen terhadap alam dan kesehatan Anda.',
-        en: 'We deliver the finest quality in every product with a commitment to nature and your well-being.',
+        id: 'Karena Apsara Essence menawarkan:',
+        en: 'Because Apsara Essence offers:',
     },
-    'why.f1.title': { id: '100% Natural', en: '100% Natural' },
+    'why.f1.title': { id: 'Alami & Herbal', en: 'Natural & Herbal' },
     'why.f1.desc': {
-        id: 'Seluruh bahan berasal dari alam tanpa bahan kimia sintetis. Aman untuk penggunaan harian.',
-        en: 'All ingredients are sourced from nature without synthetic chemicals. Safe for daily use.',
+        id: 'Menggunakan 100% bahan alami pilihan yang kaya akan manfaat herbal untuk kesehatan pikiran Anda.',
+        en: 'Uses carefully selected 100% natural ingredients rich in herbal benefits for your mental health.',
     },
-    'why.f2.title': { id: 'Rempah Lokal', en: 'Local Spices' },
+    'why.f2.title': { id: 'Atasi Gangguan Tidur', en: 'Reduce Sleep Disorders' },
     'why.f2.desc': {
-        id: 'Bahan baku langsung dari petani rempah lokal Indonesia, mendukung ekonomi berkelanjutan.',
-        en: 'Raw materials directly from local Indonesian spice farmers, supporting a sustainable economy.',
+        id: 'Diformulasikan secara khusus sehingga efektif untuk membantu mengurangi berbagai masalah gangguan tidur.',
+        en: 'Specially formulated to be highly effective in helping to reduce various sleep disorder problems.',
     },
-    'why.f3.title': { id: 'Mental Wellness', en: 'Mental Wellness' },
+    'why.f3.title': { id: 'Aroma Menenangkan', en: 'Calming Aromas' },
     'why.f3.desc': {
-        id: 'Diformulasikan khusus untuk membantu mengelola stres, kecemasan, dan gangguan tidur.',
-        en: 'Specially formulated to help manage stress, anxiety, and sleep disorders.',
+        id: 'Hadir dengan beberapa pilihan varian yang memberikan sensasi aroma yang sangat menenangkan.',
+        en: 'Available in several variant choices that provide a deeply calming aroma sensation.',
     },
-    'why.f4.title': { id: 'Tahan Lama', en: 'Long-lasting' },
+    'why.f4.title': { id: 'Modern & Fleksibel', en: 'Modern & Flexible' },
     'why.f4.desc': {
-        id: 'Aroma yang konsisten dan tahan lama hingga 8 jam, memberikan manfaat sepanjang hari.',
-        en: 'Consistent and long-lasting fragrance up to 8 hours, providing benefits throughout the day.',
+        id: 'Tampilan produk yang modern dan instagrammable, serta sangat fleksibel untuk diletakkan di mana saja.',
+        en: 'Features a modern, instagrammable look, and is highly flexible to be placed anywhere.',
     },
 
     // ── FAQ ───────────────────────────────────────
@@ -124,8 +116,8 @@ const translations = {
         en: 'Do you ship nationwide across Indonesia?',
     },
     'faq.a3': {
-        id: 'Ya, kami melayani pengiriman ke seluruh wilayah Indonesia melalui berbagai ekspedisi terpercaya. Pemesanan dapat dilakukan melalui WhatsApp kami.',
-        en: 'Yes, we ship to all regions of Indonesia through various trusted couriers. Orders can be placed via our WhatsApp.',
+        id: 'Saat ini pengiriman baru tersedia di sekitaran daerah Denpasar saja, karena produk Apsara Essence baru saja diluncurkan.',
+        en: 'Currently, delivery is only available around the Denpasar area, as Apsara Essence products have just been launched.',
     },
     'faq.q4': {
         id: 'Berapa lama ketahanan aroma setiap produk?',
@@ -134,14 +126,6 @@ const translations = {
     'faq.a4': {
         id: 'Setiap pouch aromaterapi kami dirancang untuk bertahan 4-8 minggu dengan penggunaan normal. Intensitas aroma dapat diperkuat dengan meremas lembut pouch secara berkala.',
         en: 'Each of our aromatherapy pouches is designed to last 4–8 weeks with normal use. You can refresh the fragrance intensity by gently squeezing the pouch periodically.',
-    },
-    'faq.q5': {
-        id: 'Apakah ada jaminan uang kembali?',
-        en: 'Is there a money-back guarantee?',
-    },
-    'faq.a5': {
-        id: 'Kami memberikan garansi kepuasan 14 hari. Jika Anda tidak puas dengan produk yang diterima, silakan hubungi kami melalui WhatsApp untuk proses pengembalian.',
-        en: 'We offer a 14-day satisfaction guarantee. If you are not satisfied with the product received, please contact us via WhatsApp for the return process.',
     },
 
     // ── Footer ────────────────────────────────────

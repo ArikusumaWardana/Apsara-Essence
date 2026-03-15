@@ -12,17 +12,19 @@
 
     <!-- Content -->
     <div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
-      <!-- Decorative line -->
-      <div data-aos="fade-down" data-aos-delay="100" class="flex items-center justify-center gap-4 mb-8">
-        <span class="block w-12 h-px bg-marigold/60" />
-        <span class="text-marigold/80 text-xs font-medium tracking-[0.3em] uppercase">{{ t('hero.tag') }}</span>
-        <span class="block w-12 h-px bg-marigold/60" />
+      <!-- Logo -->
+      <div data-aos="fade-down" data-aos-delay="100" class="flex justify-center mb-4">
+        <img
+          src="/images/LOGO.png"
+          alt="Logo"
+          class="h-24 sm:h-32 md:h-40 w-auto object-contain drop-shadow-xl"
+        />
       </div>
 
       <h1
         data-aos="fade-up"
         data-aos-delay="200"
-        class="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-star-white leading-tight mb-6"
+        class="font-serif text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-star-white leading-tight mb-6"
       >
         {{ t('hero.title1') }}<br />
         <span class="text-marigold italic">{{ t('hero.title2') }}</span>

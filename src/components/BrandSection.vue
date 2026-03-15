@@ -8,7 +8,7 @@
             <img
               src="/images/brand-philosophy.png"
               alt="Apsara Essence philosophy"
-              class="w-full h-[400px] lg:h-[520px] object-cover"
+              class="w-full h-[300px] sm:h-[400px] lg:h-[520px] object-cover"
             />
             <div class="absolute inset-0 bg-gradient-to-t from-big-dipper/30 to-transparent" />
           </div>
@@ -31,18 +31,18 @@
             {{ t('brand.p2') }}
           </p>
           <!-- Stats -->
-          <div class="grid grid-cols-3 gap-6">
-            <div class="text-center p-4 rounded-xl bg-big-dipper/5">
-              <span class="block font-serif text-2xl lg:text-3xl font-bold text-marigold">100%</span>
-              <span class="text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat1') }}</span>
+          <div class="grid grid-cols-3 gap-3 sm:gap-6 mt-6">
+            <div class="text-center p-3 sm:p-4 rounded-xl bg-big-dipper/5">
+              <span class="block font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-marigold">100%</span>
+              <span class="text-[10px] sm:text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat1') }}</span>
             </div>
-            <div class="text-center p-4 rounded-xl bg-big-dipper/5">
-              <span class="block font-serif text-2xl lg:text-3xl font-bold text-marigold">15+</span>
-              <span class="text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat2') }}</span>
+            <div class="text-center p-3 sm:p-4 rounded-xl bg-big-dipper/5">
+              <span class="block font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-marigold">15+</span>
+              <span class="text-[10px] sm:text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat2') }}</span>
             </div>
-            <div class="text-center p-4 rounded-xl bg-big-dipper/5">
-              <span class="block font-serif text-2xl lg:text-3xl font-bold text-marigold">5K+</span>
-              <span class="text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat3') }}</span>
+            <div class="text-center p-3 sm:p-4 rounded-xl bg-big-dipper/5">
+              <span class="block font-serif text-xl sm:text-2xl lg:text-3xl font-bold text-marigold">0%</span>
+              <span class="text-[10px] sm:text-xs text-big-dipper/60 font-medium tracking-wide uppercase mt-1 block">{{ t('brand.stat3') }}</span>
             </div>
           </div>
         </div>

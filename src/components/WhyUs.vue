@@ -14,7 +14,7 @@
       </div>
 
       <!-- Feature Grid -->
-      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
         <div
           v-for="(feature, index) in features"
           :key="feature.titleKey"
@@ -38,15 +38,15 @@
 </template>
 
 <script setup>
-import { Brain, Clock, Leaf, MapPin } from 'lucide-vue-next';
+import { Leaf, Moon, Wind, Sparkles } from 'lucide-vue-next';
 import { useI18n } from '../composables/useI18n';
 
 const { t } = useI18n()
 
 const features = [
   { icon: Leaf, titleKey: 'why.f1.title', descKey: 'why.f1.desc' },
-  { icon: MapPin, titleKey: 'why.f2.title', descKey: 'why.f2.desc' },
-  { icon: Brain, titleKey: 'why.f3.title', descKey: 'why.f3.desc' },
-  { icon: Clock, titleKey: 'why.f4.title', descKey: 'why.f4.desc' },
+  { icon: Moon, titleKey: 'why.f2.title', descKey: 'why.f2.desc' },
+  { icon: Wind, titleKey: 'why.f3.title', descKey: 'why.f3.desc' },
+  { icon: Sparkles, titleKey: 'why.f4.title', descKey: 'why.f4.desc' },
 ]
 </script>

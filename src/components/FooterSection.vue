@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-syrah text-star-white/70 pt-16 pb-8">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
-      <div class="grid md:grid-cols-3 gap-12 mb-12">
+      <div class="grid md:grid-cols-3 gap-8 md:gap-12 mb-12">
         <!-- Brand -->
         <div>
           <a href="#home" class="inline-block mb-4">
