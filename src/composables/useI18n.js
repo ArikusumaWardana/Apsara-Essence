@@ -108,8 +108,8 @@ const translations = {
         en: 'How do I use Apsara Essence aromatherapy?',
     },
     'faq.a2': {
-        id: 'Anda dapat meletakkan pouch aromaterapi di samping bantal, meja kerja, atau di dalam lemari pakaian. Aroma akan keluar secara alami dan bertahan hingga 8 jam.',
-        en: 'You can place the aromatherapy pouch next to your pillow, on your desk, or inside your wardrobe. The fragrance is released naturally and lasts up to 8 hours.',
+        id: 'Anda dapat mengoleskan botol roll on aromaterapi langsung pada kulit di area yang diinginkan, seperti pergelangan tangan atau leher. Aroma akan meresap dan memberikan kesegaran kapan pun Anda membutuhkannya.',
+        en: 'You can apply the aromatherapy roll-on directly to the skin on the desired area, such as the wrist or neck. The fragrance will absorb and provide freshness whenever you need it.',
     },
     'faq.q3': {
         id: 'Apakah tersedia pengiriman ke seluruh Indonesia?',

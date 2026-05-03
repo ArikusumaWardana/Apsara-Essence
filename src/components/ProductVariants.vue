@@ -85,17 +85,17 @@ const products = [
   {
     name: 'Apsara Hana',
     badge: 'New',
-    image: '/images/midnight-spice.png',
+    image: '/images/LavenderVariant.jpeg',
     descKey: 'products.desc.mori',
-    notes: ['Lavender', 'Rosemary', 'Kayu Manis'],
+    notes: ['Lavender', 'Daun Mint', 'Cengkeh', 'Daun Legondi'],
     waKey: 'products.wa.mori',
   },
   {
     name: 'Apsara Mori',
     badge: 'New',
-    image: '/images/serene-sandalwood.png',
+    image: '/images/CendanaVariant.jpeg',
     descKey: 'products.desc.hana',
-    notes: ['Cendana', 'Pala', 'Cengkeh', 'Pandan'],
+    notes: ['Cendana', 'Daun Mint', 'Cengkeh', 'Daun Legondi'],
     waKey: 'products.wa.hana',
   },
 ]
