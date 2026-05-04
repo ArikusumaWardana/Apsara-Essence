@@ -15,7 +15,7 @@
       <!-- Logo -->
       <div data-aos="fade-down" data-aos-delay="100" class="flex justify-center mb-4">
         <img
-          src="/images/Logo.png"
+          src="/images/LOGO.png"
           alt="Logo"
           class="h-24 sm:h-32 md:h-40 w-auto object-contain drop-shadow-xl"
         />
