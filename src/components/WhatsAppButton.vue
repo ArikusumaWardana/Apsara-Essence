@@ -18,7 +18,9 @@ import { useI18n } from '../composables/useI18n';
 
 const { t } = useI18n()
 
+const WHATSAPP_NUMBER = '628980546910'
+
 const waLink = computed(
-  () => 'https://wa.me/?text=' + encodeURIComponent(t('wa.message'))
+  () => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(t('wa.message'))}`
 )
 </script>

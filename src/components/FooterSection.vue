@@ -52,7 +52,7 @@
             </li>
             <li class="flex items-start gap-3">
               <Phone class="w-4 h-4 mt-0.5 text-marigold flex-shrink-0" :stroke-width="1.8" />
-              <span>+62 812 3456 7890</span>
+              <span>+62 8980546910</span>
             </li>
             <li class="flex items-start gap-3">
               <MapPin class="w-4 h-4 mt-0.5 text-marigold flex-shrink-0" :stroke-width="1.8" />
