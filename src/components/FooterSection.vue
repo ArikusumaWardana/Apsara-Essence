@@ -48,7 +48,7 @@
           <ul class="space-y-3 text-sm">
             <li class="flex items-start gap-3">
               <Mail class="w-4 h-4 mt-0.5 text-marigold flex-shrink-0" :stroke-width="1.8" />
-              <span>hello@apsaraessence.id</span>
+              <span>apsaraessence@gmail.com</span>
             </li>
             <li class="flex items-start gap-3">
               <Phone class="w-4 h-4 mt-0.5 text-marigold flex-shrink-0" :stroke-width="1.8" />
@@ -56,7 +56,7 @@
             </li>
             <li class="flex items-start gap-3">
               <MapPin class="w-4 h-4 mt-0.5 text-marigold flex-shrink-0" :stroke-width="1.8" />
-              <span>Bali, Indonesia</span>
+              <span>Denpasar, Bali, Indonesia</span>
             </li>
           </ul>
         </div>
@@ -74,7 +74,7 @@
 
 <script setup>
 import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'lucide-vue-next'
-import { computed } from 'vue'
+import { computed, h } from 'vue'
 import { useI18n } from '../composables/useI18n'
 
 const { t } = useI18n()
@@ -92,9 +92,17 @@ const quickLinks = computed(() => [
   { id: 'faq', label: t('nav.faq') },
 ])
 
+const TikTok = {
+  render: () =>
+    h('svg', { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 24 24', fill: 'currentColor' }, [
+      h('path', {
+        d: 'M19.321 5.562a5.122 5.122 0 0 1-.443-.258 6.228 6.228 0 0 1-1.137-.966c-.849-.849-1.295-1.92-1.629-3.008H12v16.588a3.982 3.982 0 0 1-3.986 3.158 3.982 3.982 0 0 1-3.987-3.987 3.982 3.982 0 0 1 4.229-3.971V9.548a7.948 7.948 0 0 0-1.047-.069 7.98 7.98 0 0 0-7.98 7.98 7.98 7.98 0 0 0 7.98 7.981 7.98 7.98 0 0 0 7.979-7.98V8.708a10.158 10.158 0 0 0 5.825 1.822V10.59a6.132 6.132 0 0 1-3.142-.904 6.155 6.155 0 0 1-1.494-1.123z',
+      }),
+    ]),
+}
+
 const socials = [
   { name: 'Instagram', icon: Instagram, url: 'https://instagram.com' },
-  { name: 'Facebook', icon: Facebook, url: 'https://facebook.com' },
-  { name: 'Twitter', icon: Twitter, url: 'https://twitter.com' },
+  { name: 'TikTok', icon: TikTok, url: 'https://www.tiktok.com/@apsaraessence_' },
 ]
 </script>
